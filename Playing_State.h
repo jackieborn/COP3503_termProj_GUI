@@ -14,7 +14,7 @@ namespace State
 
         //override makes compiler check if functions ACTUALLY override the function
         void input() override;
-        void update(float dt);
+        void update(float dt) override;
         void draw() override;
 
     private:
